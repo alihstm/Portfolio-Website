@@ -22,7 +22,7 @@ const socialLinks = [
 
 const SocialContact = ({ isDark }) => {
   return (
-    <ul className="flex flex-col items-center sm:w-5 w-102 sm:h-[65%] h-full sm:px-0 gap-4 sm:rotate-0 rotate-90">
+    <ul className="flex flex-col items-center justify-end sm:w-5 w-102 sm:h-[65%] h-full sm:px-0 gap-4 sm:rotate-0 rotate-90">
       {socialLinks.map(({ href, Icon, ariaLabel }) => (
         <li key={href} className="transition-transform duration-100 ease-in-out hover:scale-110 sm:rotate-0 -rotate-90">
           <a
@@ -35,7 +35,7 @@ const SocialContact = ({ isDark }) => {
           </a>
         </li>
       ))}
-      <div className={`w-0.5 h-35 ${isDark ? 'bg-white' : 'bg-black'}`}></div>
+      <div className={`w-0.5 sm:h-35 h-30 ${isDark ? 'bg-white' : 'bg-black'}`}></div>
       <p className="text-sm font-semibold w-32 -rotate-90">
         Contact Me
       </p>
