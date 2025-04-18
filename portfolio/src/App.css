@@ -1,0 +1,61 @@
+:root {
+  --black: #0c0c0c;
+  --white: #ffffff;
+  --dark-red: #a10707;
+  --old-standard-tt: Marcellus;
+  --winky-rough: "Winky Rough";
+  --rale-way: Raleway;
+}
+
+.text-old-standard-tt {
+  font-family: var(--old-standard-tt);
+}
+.text-winky-rough {
+  font-family: var(--winky-rough);
+}
+.text-rale-way {
+  font-family: var(--rale-way);
+}
+
+.color-white {
+  color: var(--white);
+}
+.color-black {
+  color: var(--black);
+}
+.color-red {
+  color: var(--dark-red);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-red {
+  background-color: var(--dark-red);
+}
+
+.grayPic-bg {
+  background: url("./assets/Material/grayBg-2.jpg") no-repeat;
+  background-position: right;
+}
+
+.blinking-caret {
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  animation: blink 0.8s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
