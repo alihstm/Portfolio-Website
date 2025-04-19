@@ -40,7 +40,7 @@ const Menu = ({ isOpen, onClose, isDark }) => {
             <Link
               key={to}
               to={to}
-              className={`text-7xl font-bold transition-colors duration-300 ${
+              className={`sm:text-7xl text-6xl font-bold transition-colors duration-300 ${
                 isDark ? "text-white" : "text-black"
               } hover:text-[#a10707] text-old-standard-tt`}
               onClick={onClose}
