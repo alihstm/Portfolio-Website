@@ -1,6 +1,6 @@
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaGitAlt, FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss, SiFigma } from "react-icons/si";
+import { SiTailwindcss, SiFigma, SiSass } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
 const About = ({ isDark }) => {
@@ -44,6 +44,11 @@ const About = ({ isDark }) => {
       id: 5,
       name: "Bootstrap",
       icon: FaBootstrap,
+    },
+    {
+      id: 6,
+      name: "Sass",
+      icon: SiSass,
     },
     {
       id: 6,
