@@ -71,7 +71,13 @@ const Home = ({ isDark }) => {
               }`}
             >
               {displayText}
-              <span className="blinking-caret">|</span>
+              <span
+                className={`blinking-caret ${
+                  isDark ? "text-white" : "text-black"
+                }`}
+              >
+                |
+              </span>
             </h2>
           </header>
 

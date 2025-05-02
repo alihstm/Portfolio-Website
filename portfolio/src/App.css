@@ -45,7 +45,6 @@
 .blinking-caret {
   font-weight: 600;
   font-size: 30px;
-  color: white;
   animation: blink 0.8s infinite;
 }
 @keyframes blink {
