@@ -77,9 +77,9 @@ const About = ({ isDark }) => {
     },
     {
       id: 3,
-      title: "Make Chrome Extensions",
+      title: "Improve Websites",
       description:
-        "Developing custom Chrome extensions that enhance browser functionality and streamline workflows. From simple utilities to complex tools, I create extensions that integrate seamlessly with Chrome's ecosystem. My extensions are built with performance in mind, featuring real-time updates, data synchronization, and intuitive interfaces that make browsing more productive and enjoyable.",
+        "I optimize websites by writing cleaner, more efficient front-end code. From smoother animations to better layouts, I make websites look better, feel faster, and work more smoothly across devices. My focus is on clean design, responsive UI, and performance that users actually notice."
     },
   ];
 
@@ -179,7 +179,9 @@ const About = ({ isDark }) => {
         </div>
 
         <div className="flex sm:flex-row flex-col items-start justify-between w-full gap-6">
-          <h1 className="sm:text-4xl text-2xl text-old-standard-tt">Services</h1>
+          <h1 className="sm:text-4xl text-2xl text-old-standard-tt">
+            Services
+          </h1>
 
           <div className="sm:w-[60%] w-full flex flex-col gap-8">
             {services.map((service) => (
