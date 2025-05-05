@@ -5,9 +5,9 @@ import AnimatedBtn from "./Extra/animatedBtn";
 import Resume from "../assets/Material/Resume.png";
 
 const typingTexts = [
-  "I love coding + tea",
+  "I love coding + coffee",
   "I code cool websites",
-  "I develop mobile apps",
+  "I turn ideas into UI",
 ];
 
 const TYPING_SPEED = 110;
