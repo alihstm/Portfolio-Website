@@ -79,7 +79,7 @@ const About = ({ isDark }) => {
       id: 3,
       title: "Improve Websites",
       description:
-        "I optimize websites by writing cleaner, more efficient front-end code. From smoother animations to better layouts, I make websites look better, feel faster, and work more smoothly across devices. My focus is on clean design, responsive UI, and performance that users actually notice."
+        "I optimize websites by writing cleaner, more efficient front-end code. From smoother animations to better layouts, I make websites look better, feel faster, and work more smoothly across devices. My focus is on clean code, responsive UI, and performance that users actually notice."
     },
   ];
 
