@@ -7,7 +7,7 @@ import Resume from "../assets/Material/Resume.png";
 const typingTexts = [
   "I love coding + coffee",
   "I code cool websites",
-  "I develop mobile apps",
+  "I develop extensions",
 ];
 
 const TYPING_SPEED = 110;
