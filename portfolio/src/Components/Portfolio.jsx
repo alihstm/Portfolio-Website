@@ -2,6 +2,8 @@ import DayMateBanner from "../assets/Material/DayMate-Banner.png";
 import ShopetBanner from "../assets/Material/Shopet-Banner.png";
 import XPowerBanner from "../assets/Material/XPower-Banner.png";
 import AppleStoreBanner from "../assets/Material/AppleStore-Banner.png";
+import TickyBanner from "../assets/Material/TickyBanner.png";
+import KeepLink from "../assets/Material/KeepLinkBanner.png";
 
 const Portfolio = ({ isDark }) => {
   const projects = [
@@ -19,15 +21,25 @@ const Portfolio = ({ isDark }) => {
     },
     {
       id: 3,
+      image: AppleStoreBanner,
+      githubLink: "https://github.com/alihstm/Apple-Store",
+      demoLink: "https://apple-store-weld-five.vercel.app/",
+    },
+    {
+      id: 4,
       image: XPowerBanner,
       githubLink: "https://github.com/alihstm/X-Power",
       demoLink: "https://x-power-azure.vercel.app/",
     },
     {
-      id: 4,
-      image: AppleStoreBanner,
-      githubLink: "https://github.com/alihstm/Apple-Store",
-      demoLink: "https://apple-store-weld-five.vercel.app/",
+      id: 5,
+      image: TickyBanner,
+      githubLink: "https://github.com/alihstm/Ticky-Chrome-Extension",
+    },
+    {
+      id: 6,
+      image: KeepLink,
+      githubLink: "https://github.com/alihstm/KeepLink",
     },
   ];
 

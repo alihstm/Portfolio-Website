@@ -1,7 +1,7 @@
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaGitAlt, FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiSass } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
+import { SiTailwindcss, SiFigma, SiSass, SiTypescript } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
 
 const About = ({ isDark }) => {
   const workTimeline = [
@@ -32,8 +32,8 @@ const About = ({ isDark }) => {
     },
     {
       id: 3,
-      name: "React Native",
-      icon: TbBrandReactNative,
+      name: "TypeScript",
+      icon: SiTypescript,
     },
     {
       id: 4,
@@ -70,16 +70,16 @@ const About = ({ isDark }) => {
         "Crafting modern, responsive websites using React and cutting-edge technologies. From sleek landing pages to complex web applications, I focus on creating intuitive user interfaces with smooth animations, optimal performance, and clean code architecture. My websites are built with SEO best practices and cross-browser compatibility in mind.",
     },
     {
-      id: 2,
-      title: "Develop Mobile Apps",
+      id: 3,
+      title: "Develop Chrome Extensions",
       description:
-        "Building powerful cross-platform mobile applications with React Native that feel truly native on both iOS and Android. I specialize in creating seamless user experiences with fluid animations, offline functionality, and efficient state management. My apps are optimized for performance and follow platform-specific design guidelines while maintaining a consistent brand identity.",
+        "Creating custom, high-performance Chrome extensions that enhance productivity and enrich the browsing experience. I focus on building feature-rich tools with clean and intuitive interfaces, seamless background processes, and efficient data handling. My extensions are optimized for speed, security, and compatibility, delivering powerful functionality while maintaining a lightweight footprint.",
     },
     {
       id: 3,
       title: "Improve Websites",
       description:
-        "I optimize websites by writing cleaner, more efficient front-end code. From smoother animations to better layouts, I make websites look better, feel faster, and work more smoothly across devices. My focus is on clean code, responsive UI, and performance that users actually notice."
+        "I optimize websites by writing cleaner, more efficient front-end code. From smoother animations to better layouts, I make websites look better, feel faster, and work more smoothly across devices. My focus is on clean code, responsive UI, and performance that users actually notice.",
     },
   ];
 
@@ -102,7 +102,7 @@ const About = ({ isDark }) => {
           </h1>
 
           <p className="sm:text-lg text-base sm:w-[60%] w-full text-rale-way">
-            I'm Ali, a 19-year-old freelance front-end developer with a passion
+            I'm Ali, a 20-year-old freelance front-end developer with a passion
             for clean code and creative design. I build dynamic, responsive UIs
             using React, Tailwind, and modern web tools. Always excited to add
             new features and bring fresh ideas to life. Driven by curiosity, I
