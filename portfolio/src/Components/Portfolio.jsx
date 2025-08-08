@@ -45,7 +45,7 @@ const Portfolio = ({ isDark }) => {
 
   return (
     <section className="flex flex-col items-center justify-center w-full h-full">
-      <div className="flex flex-col items-start justify-between w-full gap-15 sm:px-50 px-5 sm:pt-70 pt-70">
+      <div className="flex flex-col items-start justify-between w-full gap-15 sm:px-50 px-5 sm:pt-143 pt-182">
         <div
           className={`flex flex-col items-start justify-center sm:w-2xl w-xs pb-8 border-b-1 ${
             isDark ? "border-white" : "border-black"
