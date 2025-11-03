@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import SocialContact from "./SocialContact";
 import AnimatedBtn from "./Extra/animatedBtn";
-import Resume from "../assets/Material/Resume.png";
+import Resume from "../assets/Material/Resume.pdf";
 
 const typingTexts = [
   "I love coding + coffee",
